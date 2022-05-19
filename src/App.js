@@ -1,10 +1,18 @@
 import "./App.css";
+import SayMyName from "./components/SayMyName";
+import Pessoa from "./components/Pessoa";
 
 function App() {
-  const name = "Fábio";
+  const nome = ["Fábio"];
   return (
     <div className="App">
-      <p>Olá {name}</p>
+      <SayMyName nome={nome} />
+      <Pessoa
+        nome="Fábio"
+        idade="38"
+        profissao="Desenvolvedor"
+        foto="https://via.placeholder.com/150"
+      />
     </div>
   );
 }
