@@ -1,12 +1,9 @@
 import "./App.css";
-import Form from "./components/Form";
-import Eventos from "./components/Eventos";
-
+import Condicional from "./components/Condicional";
 function App() {
   return (
     <div className="App">
-      <Form />
-      <Eventos />
+      <Condicional />
     </div>
   );
 }
