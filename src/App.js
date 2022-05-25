@@ -1,9 +1,15 @@
 import "./App.css";
-import Condicional from "./components/Condicional";
+import { useState } from "React";
+import SeuNome from "./components/SeuNome";
+import Saudacao from "./components/Saudacao";
+
 function App() {
+  const [nome, SetNome] = useState();
   return (
     <div className="App">
-      <Condicional />
+      <h1>Setlif</h1>
+      <SeuNome setNome={SetNome} />
+      <Saudacao nome={nome} />
     </div>
   );
 }
