@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Empresa from "./components/Empresa";
 import Contato from "./components/Contato";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 }
